@@ -9,7 +9,7 @@ app.get('/', function (req, res) {
     var name = process.env.NAME || 'World';
     res.send("Hello ".concat(name, "!"));
 });
-var port = parseInt(process.env.PORT || '3000');
+var port = parseInt(process.env.PORT || '5000');
 app.listen(port, function () {
     console.log("listening on port ".concat(port));
 });
